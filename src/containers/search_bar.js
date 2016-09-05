@@ -33,7 +33,7 @@ class SearchBar extends Component {
 			<form className="input-group" onSubmit={this.onFormSubmit}>
 				<div>
 				<input 
-					placeholder="Enter valid Satelite id"
+					placeholder="Enter valid Satelite ID (ex. 25544)"
 					className="form-control"
 					value={this.state.id}
 					onChange={this.onIdInputChange} />
