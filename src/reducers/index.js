@@ -1,7 +1,8 @@
 import { combineReducers } from 'redux';
+import SatelliteReducer from './satellite';
 
 const rootReducer = combineReducers({
-  state: (state = {}) => state
+  satellite: SatelliteReducer
 });
 
 export default rootReducer;
