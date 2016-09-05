@@ -5,12 +5,13 @@ import { connect } from 'react-redux';
 class Location extends Component {
 
 	renderLocation(data) {
-		
 		const latitude = data.latitude;
 		const longitude = data.longitude;
+		const name = data.name;
 
 		return (
 				<tr key={latitude + longitude}>
+					<td> {name} </td>
 					<td> {latitude} </td>
 					<td> {longitude} </td>
 				</tr> 
@@ -22,6 +23,7 @@ class Location extends Component {
 			<table className="table table-hover">
 				<thead>
 					<tr>
+						<th> Name </th>
 						<th> Latitude </th>
 						<th> Longitude </th>
 					</tr>

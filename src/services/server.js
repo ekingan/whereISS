@@ -1,9 +1,7 @@
-var fs = require("fs");
-var data = '';
 const url = "https://api.wheretheiss.at/v1/satellites/25544";
-
+let data = '';
 // Create a readable stream
-var readerStream = fs.createReadStream(url);
+var readerStream = createReadStream(url);
 
 // Set the encoding to be utf8. 
 readerStream.setEncoding('UTF8');
@@ -18,10 +16,12 @@ readerStream.on('end',function(){
    console.log(data);
 });
 
-export default server;
+
 
 readerStream.on('error', function(err){
    console.log(err.stack);
 });
 
 console.log("Program Ended");
+
+export default server;
