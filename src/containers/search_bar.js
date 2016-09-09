@@ -45,11 +45,13 @@ class SearchBar extends Component {
 					className="form-control"
 					value={this.state.rate}
 					onChange={this.onRateInputChange} />
+					<p>
 				<span className="input-group-btn">
 					<button type="submit" className="btn btn-primary">
 						Submit
 					</button>
 				</span>
+					</p>
 				</div>
 			</form>
 		);

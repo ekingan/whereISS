@@ -5,7 +5,6 @@ import { connect } from 'react-redux';
 class Location extends Component {
 
 	renderLocation(data) {
-		const name = data.name;
 		const latitude = data.latitude;
 		const longitude = data.longitude;
 		const name = data.name;

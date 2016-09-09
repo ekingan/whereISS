@@ -7,12 +7,15 @@
 4. view project at localhost:8080
 5. use the ID 25544 as the API currently only supports one satallite.
 
+## to run tests
+1. after above steps, in command line type: npm run test
+
 ## The challenge:
 
 This coding challenge asked to write a javascript module that given an ID and request rate would return a readable stream with the location data
 for the corresponding satellite using http://wheretheiss.at/w/developer for data.
 The stream was to be implimented by sub classing the node.js class ReadableStream and include tests.
-We were to then, implement a stream that calculated change of lat/lons per second.
+We were to then, implement a stream that calculated change of lat/long per second.
 
 
 ## What I did:
@@ -31,7 +34,9 @@ JSON data and rendered the data to the DOM.
 
 2. I was comfortable with Node enough to make the same API query and return similar data.
 
-3. I was glad to get a Node.js refresher and am enthusiastic about continuing to deepen my knowledge with Node!
+3. I wrote several tests for the project components, actions, and reducers. See above for how to run tests.
+
+4. I was glad to get a Node.js refresher and am enthusiastic about continuing to deepen my knowledge with Node!
 
 ## Issues
 
