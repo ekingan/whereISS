@@ -34,9 +34,9 @@ JSON data and rendered the data to the DOM.
 
 2. I was comfortable with Node enough to make the same API query and return similar data.
 
-3. I wrote several tests for the project components, actions, and reducers. See above for how to run tests.
+3. I wrote several tests for the project that test the components, actions, and reducers. See above for how to run tests.
 
-4. I was glad to get a Node.js refresher and am enthusiastic about continuing to deepen my knowledge with Node!
+4. I was glad to get a Node.js refresher and am enthusiastic about continuing to deepen my knowledge of Node. (Node is so cool!)
 
 ## Issues
 
@@ -46,7 +46,7 @@ set aside time to work on it.
 2. Using ReadableStream proved challenging and I was stumped on how to get it to work directly with an external API. Some thoughts I had were to set up
 my own server to stream data or to try to use localStorage.
 
-3. If I had been able to use ReadableStream, I would incorporate the rate variable to pause the stream. Currently, entering a rate has no effect.
+3. If I had been able to use ReadableStream, I would have incorporated the rate variable to start and pause the stream at the requested intervals. Currently, entering a rate has no effect.
 
 4. Due to time limitations, I did not link the back-end and front-end portions of the project but wanted to include them both so you could see what I had done.
 
@@ -54,4 +54,4 @@ my own server to stream data or to try to use localStorage.
 
 6. I did not have time to write documentation for the gist provided ( https://gist.github.com/hayes/348246e0060b93077b34 ). I wanted to submit this to you by Friday morning.
 
-
+##Thanks so much! - Emily
