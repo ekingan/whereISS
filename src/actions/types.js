@@ -1,0 +1,1 @@
+export const FETCH_SATELLITE = 'FETCH_SATELLITE';

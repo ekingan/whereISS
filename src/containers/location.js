@@ -8,6 +8,7 @@ class Location extends Component {
 		const name = data.name;
 		const latitude = data.latitude;
 		const longitude = data.longitude;
+		const name = data.name;
 
 		return (
 				<tr key={latitude + longitude}>
