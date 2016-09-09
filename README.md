@@ -52,6 +52,8 @@ my own server to stream data or to try to use localStorage.
 
 5. I am pretty sure React/Redux was not the best choice for this project since there was not much support on how to use ReadableStream with these frameworks.
 
-6. I did not have time to write documentation for the gist provided ( https://gist.github.com/hayes/348246e0060b93077b34 ). I wanted to submit this to you by Friday morning.
+6. I did not have time to write documentation for the gist provided  at https://gist.github.com/hayes/348246e0060b93077b34 .
+I wanted to submit this to you by Friday morning. I do have time this weekend and if you are interested in seeing how I would approach this I
+would love the opportunity.
 
 ##Thanks so much! - Emily
